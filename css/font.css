@@ -1,0 +1,41 @@
+.font12 {	color: #000000;text-decoration: none;    margin: 0px  0px; 	padding: 0px  0px;	font-family: "MS Sans Serif", Tahoma, sans-serif;	font-size: 12px;	font-style: normal;	text-decoration: none;}
+body {  color: #000000;margin: 0px  0px; padding: 0px  0px; font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px}
+a:link { color: #000000; text-decoration: none; font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px}
+a:visited { color: #000000; text-decoration: none; font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px}
+a:active { color: #FF9900; font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px}
+a:hover { color: #00CCCC; font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px}
+
+.Body {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px}
+table {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px}
+.TextBlue {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px; color: #0099FF}
+.TextGreen {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px; color: #009900}
+.TextOrange {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px; color: #FF6600}
+.TextRed {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px; color: #FF0000}
+.ButtonGreen {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 10px; font-weight: bold; color: #FFFFFF; text-decoration: none; background-color: #009900; border-color: #00FF00 #006600 #003300 #00FF00; cursor: hand}
+.ButtonBlue {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 10px; font-weight: bold; color: #FFFFFF; background-color: #0099FF; border-color: #00CCFF #0066CC #0066CC #00CCFF; cursor: hand}
+.ButtonOrange {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 10px; font-weight: bold; color: #FFFFFF; background-color: #FF5100; border-color: #FF6600 #CC0000 #CC0000 #FF6600; cursor: hand}
+.ButtonRed {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 10px; font-weight: bold; color: #FFFFFF; background-color: #FF0000; border-color: #FF3300 #990000 #990000 #FF3300; cursor: hand}
+.3dBlue {  background-color: #0099FF; border-color: #00CCFF #003399 #003399 #00CCFF; list-style-type: square; border-style: solid; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; font-size: 14px}
+.BkBlue {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 10px; color: #FFFFFF; background-color: #0099FF}
+.BkRed {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px; color: #FFFFFF; background-color: #FF0000}
+.BkGreen {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px; color: #FFFFFF; background-color: #009900}
+.BkOrange {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 10px; color: #FFFFFF; background-color: #FF5100; font-weight: bold}
+.3dGreen { background-color: #009900; border-color: #00FF00 #003300 #003300 #00FF00; list-style-type: square; border-style: solid; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; font-size: 12px}
+.3dOrange { background-color: #ff9900; border-color: #ffcc00 #993300 #993300 #ffcc00; list-style-type: square; border-style: solid; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; font-size: 12px}
+.3dRed { background-color: #FF0000; border-color: #ff3300 #990000 #990000 #ff3300; list-style-type: square; border-style: solid; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; font-size: 12px}
+td {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px}
+th {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px}
+tr {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px}
+.font12{ font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px; color: #000000}
+.Button { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 10px; font-weight: bold; color: #333333; border-color: #0000FF #CCCCCC; cursor: text; word-spacing: normal; background-color: #FFCCCC; border-style: solid; border-top-width: 2px; border-bottom-width: 2px}
+.font12 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 12px}
+.font16 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 16px; color: #0033CC }
+}
+.font12-white {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #FFF;
+	text-decoration: none;
+}

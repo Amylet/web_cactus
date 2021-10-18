@@ -1,0 +1,151 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#2f383f; color:#FFF; font:10px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{
+	padding:0px;
+	margin:0px;
+	color: #000;
+}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px}
+.spacer{font-size:0; line-height:10px; clear:both;}
+
+/* TOP */
+
+#top{width:747px; height:91px; position:relative; background:url(../images/b_top.jpg) 0 0 no-repeat; margin: 0 auto;}
+
+#logo{
+	width:200px;
+	height:55px;
+	position:absolute;
+	top:9px;
+	left:-3px;
+	background-color: #990033;
+}
+
+ul.menu {position:absolute; top:0; left:257px;}
+ul.menu li{float:left}
+
+ul.menu li.home a{width:106px; height:66px; display:block; background:url(../images/btn_home.jpg) 0 0 no-repeat; text-indent:-20000px;}
+ul.menu li.home a:hover{width:106px; height:66px; background:url(../images/btn_home_over.jpg) 0 0 no-repeat;}
+
+ul.menu li.about a{width:88px; height:66px; display:block; background:url(../images/btn_about.jpg) 0 0 no-repeat; text-indent:-20000px;}
+ul.menu li.about a:hover{width:88px; height:66px; background:url(../images/btn_about_over.jpg) 0 0 no-repeat;}
+
+ul.menu li.selling a{width:80px; height:66px; display:block; background:url(../images/btn_selling.jpg) 0 0 no-repeat; text-indent:-20000px;}
+ul.menu li.selling a:hover{width:80px; height:66px; background:url(../images/btn_selling_over.jpg) 0 0 no-repeat;}
+
+ul.menu li.renting a{width:86px; height:66px; display:block; background:url(../images/btn_renting.jpg) 0 0 no-repeat; text-indent:-20000px;}
+ul.menu li.renting a:hover{width:86px; height:66px; background:url(../images/btn_renting_over.jpg) 0 0 no-repeat;}
+
+ul.menu li.contacts a{width:92px; height:66px; display:block; background:url(../images/btn_contacts.jpg) 0 0 no-repeat; text-indent:-20000px;}
+ul.menu li.contacts a:hover{width:92px; height:66px; background:url(../images/btn_contacts_over.jpg) 0 0 no-repeat;}
+
+/* HEADER */
+
+#header{width:747px; height:257px; position:relative; margin: 0 auto; clear:both;}
+
+#formPan{width:212px;height:257px; float:left; background:url(../images/b_form.jpg) 0 0 no-repeat; }
+#formPan h2{height:32px; background:url(../images/h_form.gif) 7px 9px no-repeat; position:relative;}
+
+form.search{color:#353739; margin: 10px 0 0 0; padding:0 0 0 9px;}
+form.search select{height:18px; border: #abadb3 1px solid; font:10px/14px Tahoma, sans-serif; width:80px}
+form.search select.location{height:18px; border: #abadb3 1px solid; font:10px/14px Tahoma, sans-serif; width:190px}
+form.search input{height:16px; border: #abadb3 1px solid; font:10px/14px Tahoma, sans-serif; width:85px}
+form.search input.submitBtn{margin:10px 0 0 120px;  width:66px; height:17px; line-height:0; font-size:0;}
+
+#mainimgPan{width:535px; float:left;}
+
+#mainimgPan ul{position:relative; margin: 6px 0 0 65px; clear:both; height:26px;}
+#mainimgPan ul li {float:left; margin-right:40px}
+#mainimgPan ul li.btn1 a{width:133px; height:15px; display:block; background:url(../images/btn_compare.jpg) 0 0 no-repeat; text-indent:-20000px; }
+#mainimgPan ul li.btn2 a{width:196px; height:15px; display:block; background:url(../images/btn_presentation.jpg) 0 0 no-repeat; text-indent:-20000px; }
+#mainimgPan ul li.line {width:2px; height:18px;}
+
+#mainimg{position:relative; height:225px; clear:both; background:url(../images/b_slogan.jpg) 0 0 no-repeat;}
+#mainimg img {position: absolute; top:126px; left:424px}
+
+
+/* CONTENT */
+
+#content{width:747px; position:relative; margin: 0 auto; clear:both; background:#70848f; border-bottom: #FFFFFF 1px dashed; border-top: #FFFFFF 1px dashed;}
+#content a{font:10px/14px Tahoma, sans-serif; color:#00e0f9; text-decoration:none }
+#content a:hover{color:#FFF;}
+
+#leftPan{width:212px; position:relative; float:left; background:url(../images/b_leftpan.jpg) 0 0 repeat-y; }
+
+#services{position:relative; margin: 20px 15px 15px 15px}
+#services h2{width:182px; height:25px; background:url(../images/h_services.jpg) 0 0 no-repeat; position:relative; padding-bottom:15px}
+#services p{width:170px; position:relative; padding: 0 0 0 4px; }
+#services p span{width:170px; font:10px/14px Tahoma, sans-serif; color:#000000; font-weight:bold;}
+
+.spacerline{
+	position:relative;
+	clear:both;
+	height:2px;
+	background:url(../images/b_hline.jpg) 0 0 repeat-x;
+	margin:0;
+	background-image: url(../images/b_hline.jpg);
+}
+
+#mortgage {position:relative; margin: 20px 15px 15px 5px}
+#mortgage h2{width:182px; height:25px; background:url(../images/h_mortgage.jpg) 0 0 no-repeat; position:relative; padding-bottom:15px; margin-left:10px}
+#mortgage p{width:80px; position:relative; padding: 22px 10px 20px 103px; background:url(../images/img_mortgage.jpg) 0 0 no-repeat; font:10px/14px Tahoma, sans-serif; color:#000000; font-weight:bold; }
+
+#mortgage ul {position:relative; clear:both; margin: 5px 20px 0 16px}
+#mortgage ul li{height:18px;}
+#mortgage ul li a{font:10px/18px Tahoma, sans-serif; color:#fff; font-weight:normal; text-decoration:underline; background:url(../images/arrow1.gif) 0 7px no-repeat; padding: 0 0 0 7px; display:block;}
+#mortgage ul li a:hover{text-decoration:none; background:#3c474f;}
+
+#rightPan{width:535px; position:relative; float:left;}
+
+#welcome{width:497px; position:relative; margin:15px 0 0 14px; }
+#welcome h2{width:285px; height:24px; background:url(../images/h_welcome.jpg) 0 0 no-repeat; position:absolute; top:0; left:0;}
+#welcome h3{width:113px; height:113px; background:url(../images/img_welcome.jpg) 0 0 no-repeat; position:absolute; top:40px; left:4px;}
+#welcome p{width:350px; position:relative; margin: 0 0 10px 137px; clear:both; padding-top:40px}
+#welcome p span{font:12px/18px Tahoma, sans-serif; color:#00e0f9; font-weight:normal;}
+
+#welcome ul{width:155px; position:relative; float:left; padding-bottom:20px;}
+#welcome ul li{height:18px;}
+#welcome ul li a{font:10px/18px Tahoma, sans-serif; color:#fff; font-weight:normal; text-decoration:underline; background:url(../images/arrow1.gif) 0 7px no-repeat; padding: 0 0 0 7px; display:block;}
+#welcome ul li a:hover{text-decoration:none; background:#3c474f;}
+#welcome ul.left {margin: 0 0 0 140px;}
+#welcome ul.right {margin: 0 0 0 30px;}
+
+#fcontainer{width:497px; position:relative; margin:18px 0 0 14px; }
+
+#featured{width:331px; position:relative; float:left;}
+#featured h2{width:285px; height:24px; background:url(../images/h_featured.jpg) 0 0 no-repeat; position:relative; padding-bottom:17px}
+#featured p{width:225px; position:relative; padding: 0 0 20px 95px;}
+#featured p span.town{font:10px/14px Tahoma, sans-serif; color:#000; font-weight:bold;}
+#featured p span.price{font:10px/14px Tahoma, sans-serif; color:#000; font-weight:normal;}
+#featured p span.number{font:10px/14px Tahoma, sans-serif; color:#00e0f9; font-weight:bold;}
+#featured p.feat1{background:url(../images/img_featured1.jpg) 4px 0 no-repeat; }
+#featured p.feat2{background:url(../images/img_featured2.jpg) 4px 0 no-repeat; }
+
+#vspacerline{width:2px; height:164px; position:relative; float:left; padding-right:7px; margin-top:5px; background:url(../images/line1.jpg) 0 0 no-repeat;  }
+
+#links{width:157px; position:relative; float:left; padding-top:3px}
+#links h2{width:107px; height:22px; background:url(../images/h_links.jpg) 0 0 no-repeat; position:relative; padding-bottom:10px}
+#links ul{width:157px; position:relative; clear:both; padding-bottom:20px;}
+#links ul li{height:18px;}
+#links ul li.back{background:#5a6a72;}
+#links ul li a{font:11px/18px Tahoma, sans-serif; color:#fff; font-weight:normal; text-decoration:none; background:url(../images/arrow2.gif) 8px 7px no-repeat; padding: 0 0 0 26px; display:block;}
+#links ul li a:hover{text-decoration:underline;}
+
+/* FOOTER */
+
+#footer{width:747px; height:53px; position:relative; margin: 0 auto; clear:both; background:#3c474f;}
+#footer img{width:156px; height:37px; position:absolute; left:15px; top:9px;}
+#footer p{width:535px; position:relative; margin: 20px 0 0 212px; font:10px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#fff; display:block;}
+#footer a{font:10px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal;  color:#fff; text-decoration:none; padding: 0 5px}
+#footer a:hover{color:#000; text-decoration:none; background:#fff;}
+
+/* BOTTOM */
+
+#bottom{width:747px; height:56px; position:relative; margin: 0 auto; clear:both;}
+#bottom a {
+	color: #FFFFFF;
+}
+#bottom p{width:535px; position:relative; margin: 10px 0 0 212px; font:10px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#fff; display:block;}
+
